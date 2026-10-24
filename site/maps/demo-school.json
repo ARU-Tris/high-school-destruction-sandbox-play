@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "metadata": { "id": "hanul-demo-v1", "fictional": true, "attribution": "Original fictional map · 실제 학교와 무관한 가상 캠퍼스" },
+  "school": { "name": "한울고등학교", "description": "가상 시연 캠퍼스 · Fictional demonstration campus" },
+  "boundary": [[-98,-88],[98,-88],[98,99],[-98,99]],
+  "terrain": { "width": 260, "depth": 250, "resolution": 2.5 },
+  "buildings": [
+    { "id": "main", "name": "본관", "footprint": { "outer": [[-80,-66],[4,-66],[4,-25],[-10,-25],[-10,-51],[-66,-51],[-66,-25],[-80,-25]] }, "height": 15.2, "levels": 4, "facade": "brick", "color": "#c19476" },
+    { "id": "science", "name": "과학관", "footprint": { "outer": [[24,-70],[76,-70],[76,-34],[24,-34]], "holes": [[[44,-58],[44,-46],[56,-46],[56,-58]]] }, "height": 11.4, "levels": 3, "facade": "concrete", "color": "#d0cdb6" },
+    { "id": "library", "name": "도서관", "footprint": { "outer": [[36,-18],[72,-18],[84,-6],[84,16],[36,16]] }, "height": 7.6, "levels": 2, "facade": "glass", "color": "#b4c8bd" },
+    { "id": "gym", "name": "체육관", "footprint": { "outer": [[-82,28],[-44,28],[-44,70],[-82,70]] }, "height": 9.5, "levels": 2, "facade": "paint", "color": "#ded7bb" },
+    { "id": "studio", "name": "미술실", "footprint": { "outer": [[60,43],[82,43],[82,65],[72,72],[60,65]] }, "height": 3.8, "levels": 1, "facade": "stone", "color": "#b2a991" }
+  ],
+  "roads": [
+    { "points": [[-108,-96],[108,-96],[108,108],[-108,108],[-108,-96]], "width": 9, "kind": "road" },
+    { "points": [[-94,5],[94,5]], "width": 7, "kind": "path" },
+    { "points": [[-29,-88],[-29,-16],[-22,5],[-22,95]], "width": 6, "kind": "path" },
+    { "points": [[14,-78],[14,94]], "width": 5, "kind": "path" },
+    { "points": [[-90,20],[89,20]], "width": 4, "kind": "path" },
+    { "points": [[-38,5],[-38,80]], "width": 4, "kind": "path" }
+  ],
+  "landAreas": [
+    { "kind": "paving", "polygon": [[-88,-75],[10,-75],[10,-16],[-88,-16]] },
+    { "kind": "grass", "polygon": [[-65,-50],[-11,-50],[-11,-17],[-65,-17]] },
+    { "kind": "paving", "polygon": [[20,-76],[82,-76],[82,-28],[20,-28]] },
+    { "kind": "grass", "polygon": [[44,-58],[56,-58],[56,-46],[44,-46]] },
+    { "kind": "field", "polygon": [[-26,28],[44,28],[44,90],[-26,90]] },
+    { "kind": "court", "polygon": [[-82,-6],[-55,-6],[-55,15],[-82,15]] }
+  ],
+  "vegetation": [
+    {"position":[-91,-80],"height":7},{"position":[-72,-82],"height":6},{"position":[-52,-82],"height":8},{"position":[-8,-82],"height":7},{"position":[16,-83],"height":6},{"position":[88,-78],"height":8},
+    {"position":[-91,-56],"height":7},{"position":[-91,-32],"height":6},{"position":[-91,5],"height":8},{"position":[-91,32],"height":7},{"position":[-91,57],"height":6},{"position":[-91,85],"height":8},
+    {"position":[91,-50],"height":8},{"position":[91,-26],"height":7},{"position":[91,1],"height":7},{"position":[91,30],"height":6},{"position":[91,55],"height":8},{"position":[91,85],"height":7},
+    {"position":[-72,91],"height":7},{"position":[-50,91],"height":8},{"position":[-8,100],"height":6},{"position":[13,100],"height":8},{"position":[36,100],"height":7},{"position":[66,91],"height":8},
+    {"position":[-56,-34],"height":5},{"position":[-45,-35],"height":6},{"position":[-24,-35],"height":5},{"position":[-50,-20],"height":5},{"position":[-19,-20],"height":6},
+    {"position":[24,34],"height":5},{"position":[53,29],"height":6},{"position":[53,80],"height":7},{"position":[-34,86],"height":6}
+  ]
+}
