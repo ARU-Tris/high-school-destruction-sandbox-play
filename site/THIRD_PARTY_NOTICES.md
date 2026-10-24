@@ -7,6 +7,11 @@ Runtime dependencies:
 
 Development tools: TypeScript (Apache-2.0), Vite (MIT), Vitest (MIT), Playwright (Apache-2.0), tsx (MIT), and their transitive dependencies. Exact installed dependency versions are in `package-lock.json`; license texts remain in their installed packages. Copies of runtime notices are included in `public/licenses/` and the production build.
 
+Kakao Pay support UI (V1.8.1):
+
+- `src/assets/kakaopay-logo.png` is the unchanged `payment_icon_yellow_large.png` (241 × 100) from Kakao Pay's official payment-method logo archive: https://t1.daumcdn.net/kakaopay/partner/center/image/kakaopay_%EA%B2%B0%EC%A0%9C%EC%88%98%EB%8B%A8%EB%A1%9C%EA%B3%A0.zip . Brand and placement reference: https://partner.kakaopay.com/partner/online/guide/payment-method . The original yellow background, proportions and colours are preserved. The mark identifies the receiving-link provider; it is not original game artwork.
+- The developer supplied the receiving link in `src/ui/donation.json`. The local QR is generated with `qrcode` 1.5.4 (MIT) and independently decoded with `jsqr` 1.4.0 (Apache-2.0), both development-only dependencies. Only the resulting static image is shipped; these packages are not part of the browser runtime. No external QR service is used.
+
 Included nationwide prepared map data (V1.1):
 
 - 한국교육시설안전원 · 공공데이터포털, 전국초중등학교위치표준데이터, reference 2026-10-01. https://www.data.go.kr/data/15021148/standard.do . Names, public school IDs, addresses and coordinates of 2,402 operating high schools. Source policy: https://www.data.go.kr/ugs/selectPortalPolicyView.do . Source fields are preserved and attributed; procedural estimates are labelled.
